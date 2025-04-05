@@ -1,0 +1,5 @@
+Sentences: 53
+Symbols: 2957
+Words: 437
+Questions: 1
+Exclamatory sentences: 1

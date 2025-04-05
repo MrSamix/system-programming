@@ -1,0 +1,36 @@
+﻿<Window x:Class="_04_Tasks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_04_Tasks"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label VerticalAlignment="Center" HorizontalContentAlignment="Center">Enter a text:</Label>
+        <TextBox Name="text" Grid.Column="1" Grid.ColumnSpan="2" Margin="20" TextWrapping="Wrap"></TextBox>
+
+        <RadioButton Name="rbtn" HorizontalAlignment="Center" Margin="0,20,0,0" Grid.Row="1" Content="Save to file" Checked="rbtn_Checked" Unchecked="rbtn_Unchecked"/>
+        <RadioButton Name="rbtn2" HorizontalAlignment="Center" Margin="0,40,0,0" Grid.Row="1" Content="Print here"/>
+
+
+        <TextBlock Name="tbpath" Grid.Row="1" Grid.Column="1" Padding="0,20,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" Width="70">Input a path to file:</TextBlock>
+        <TextBox Name="path" Grid.Row="1" Grid.Column="1" Margin="70,10,20,10" TextWrapping="Wrap"></TextBox>
+        <Button Click="Button_Click" Grid.Row="1" Grid.Column="2" Margin="20" Background="#FF6B1919" Foreground="White" FontSize="18" FontWeight="Bold" FontStyle="Italic">ENTER</Button>
+
+        <TextBlock Name="res" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">Result:</TextBlock>
+        <TextBlock Name="resdetail" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" Margin="20"></TextBlock>
+        
+    </Grid>
+</Window>
