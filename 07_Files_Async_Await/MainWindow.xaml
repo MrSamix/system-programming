@@ -1,0 +1,51 @@
+﻿<Window x:Class="_07_Files_Async_Await.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_07_Files_Async_Await"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontStyle" Value="Italic" />
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Cascadia Code"/>
+        </Style>
+        <Style TargetType="RadioButton">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="5,0" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Right" FontFamily="Cascadia Code">Files:</Label>
+        <TextBox Name="path" Grid.Column="1" Grid.ColumnSpan="3" Margin="10" TextWrapping="Wrap" IsReadOnly="True"></TextBox>
+        <Button Click="OpenFile" Grid.Column="4">Open File</Button>
+        <Button Click="OpenFolder" Grid.Column="5">Open Folder</Button>
+
+        <RadioButton Name="rbmaxyear" Grid.Row="1">Max YearExperience</RadioButton>
+        <RadioButton Name="rbminyear" Grid.Row="1" Grid.Column="1">Min YearExperience</RadioButton>
+        <RadioButton Name="rbcity" Grid.Row="1" Grid.Column="2">Sort by city</RadioButton>
+        <RadioButton Name="rbmaxsalary" Grid.Row="1" Grid.Column="3">Max Salary</RadioButton>
+        <RadioButton Name="rbminsalary" Grid.Row="1" Grid.Column="4">Min Salary</RadioButton>
+        <Button Click="Find" Grid.Row="1" Grid.Column="5">Find</Button>
+
+        <ListBox Name="lbres" Grid.Row="2" Grid.ColumnSpan="6"></ListBox>
+    </Grid>
+</Window>
