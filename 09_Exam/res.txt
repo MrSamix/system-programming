@@ -1,0 +1,45 @@
+Filename: lorem-ipsum-1744388062074.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\new folder\lorem-ipsum-1744388062074.txt
+Count find word: 16
+Filename: lorem-ipsum-1744388059564.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\new folder\lorem-ipsum-1744388059564.txt
+Count find word: 6
+Filename: lorem-ipsum-1744388069170.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\new folder\lorem\lorem-ipsum-1744388069170.txt
+Count find word: 2
+Filename: lorem-ipsum-1744388060755.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\new folder\lorem-ipsum-1744388060755.txt
+Count find word: 8
+Filename: lorem-ipsum-1744388063202.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\5 files\lorem-ipsum-1744388063202.txt
+Count find word: 1
+Filename: lorem-ipsum-1744388070081.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\new folder\lorem\lorem-ipsum-1744388070081.txt
+Count find word: 8
+Filename: lorem-ipsum-1744388065253.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\5 files\lorem-ipsum-1744388065253.txt
+Count find word: 13
+Filename: lorem-ipsum-1744388057469.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\new folder\lorem-ipsum-1744388057469.txt
+Count find word: 5
+Filename: lorem-ipsum-1744388066259.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\5 files\lorem-ipsum-1744388066259.txt
+Count find word: 11
+Filename: lorem-ipsum-1744388073099.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\lorem-ipsum-1744388073099.txt
+Count find word: 14
+Filename: lorem-ipsum-1744388064230.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\5 files\lorem-ipsum-1744388064230.txt
+Count find word: 12
+Filename: lorem-ipsum-1744388067278.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\5 files\lorem-ipsum-1744388067278.txt
+Count find word: 7
+Filename: lorem-ipsum-1744388068243.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\new folder\lorem\lorem-ipsum-1744388068243.txt
+Count find word: 6
+Filename: lorem-ipsum-1744388072017.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\lorem-ipsum-1744388072017.txt
+Count find word: 9
+Filename: lorem-ipsum-1744388071032.txt
+Path: C:\Users\Oleksandr\Desktop\itstep\SystemProgramming\09_Exam\files\lorem-ipsum-1744388071032.txt
+Count find word: 8
